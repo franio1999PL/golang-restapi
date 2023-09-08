@@ -1,7 +1,9 @@
 {
-  "functions": {
-    "api/index.go": {
-      "runtime": "go1.20.5"
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.go"
     }
-  }
+  ]
 }

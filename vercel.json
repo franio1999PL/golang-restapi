@@ -1,14 +1,8 @@
 {
-  "version": 2,
-  "functions": {
-    "api/users.go": {
-      "runtime": "vercel/go@1.20.5"
-    },
-    "routes": [
-      {
-        "src": "/api/(.*)",
-        "dest": "/api/index.go"
-      }
-    ]
-  }
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api"
+    }
+  ]
 }

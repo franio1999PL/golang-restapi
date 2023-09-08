@@ -7,7 +7,7 @@ import (
 )
 
 func pocketpostsHandler(w http.ResponseWriter, r *http.Request) {
-    // Odczytujemy parametry z zapytania
+    // Odczytujemy parametry z zapytaniax
     searchParam := r.URL.Query().Get("search")
     limitParam := r.URL.Query().Get("limit")
     sortParam := r.URL.Query().Get("sort")

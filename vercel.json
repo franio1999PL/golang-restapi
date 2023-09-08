@@ -1,5 +1,7 @@
 {
-  "github": {
-    "silent": true
+  "functions": {
+    "api/index.go": {
+      "runtime": "go1.8"
+    }
   }
 }
